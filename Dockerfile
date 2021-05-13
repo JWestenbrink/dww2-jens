@@ -1,2 +1,2 @@
 FROM php:8.0-apache
-COPY . /var/www/html/
+COPY vb2.php index.html styles.css /var/www/html/
